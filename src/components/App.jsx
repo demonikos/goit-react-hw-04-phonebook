@@ -29,8 +29,7 @@ export const App = () => {
   }, [state.contacts]);
 
   const addContact = (id, name, number) => {
-    console.log(state.contacts);
-
+    // console.log(state.contacts);
     if (
       !state.contacts.some(
         elem => elem.name.toLowerCase() === name.toLowerCase()
